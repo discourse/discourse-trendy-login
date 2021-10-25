@@ -1,11 +1,19 @@
 custom_bg_image:
   type: string
   default: default
-  description: Enter background image url
+  description: Background image url
 custom_bg_color:
   type: string
   default: default
-  description: Enter background color code
+  description: Background color code
+custom_bg_gradient_1:
+  type: string
+  default: "#FAFFD1"
+  description: Background gradient color code 1
+custom_bg_gradient_2:
+  type: string
+  default: "#A1FFCE"
+  description: Background gradient color code 2
 login_header:
   type: string
   default: "<h1>Welcome to Discourse! 👋</h1>"
@@ -17,5 +25,5 @@ login_subheader:
 login_button_border:
   type: string
   default: default
-  description: Enter border and button color code
+  description: Border and button color code
 

@@ -3,13 +3,12 @@ body.static-login {
   background-repeat: repeat;
 
   @if $custom-bg-image != "default" {
-   background-image: url($custom-bg-image);
+    background-image: url($custom-bg-image);
   } @else if $custom-bg-color != "default" {
-     background: $custom-bg-color;
+    background: $custom-bg-color;
   } @else {
-    background: #A1FFCE;
-    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);
-    background: linear-gradient(to right, #FAFFD1, #A1FFCE);
+    background: -webkit-linear-gradient(to right, $custom-bg-gradient-1, $custom-bg-gradient-2);
+    background: linear-gradient(to right, $custom-bg-gradient-1, $custom-bg-gradient-2);
   }
 
   .body-page {
