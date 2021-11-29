@@ -1,16 +1,24 @@
-custom_bg_image:
+bg_image:
   type: string
   default: default
   description: Background image url
-custom_bg_color:
+bg_color:
   type: string
   default: default
   description: Background color code
-custom_bg_gradient_1:
+modal_bg_color:
+  type: string
+  default: default
+  description: Modal background color code
+modal_text_color:
+  type: string
+  default: default
+  description: Modal text color code
+bg_gradient_1:
   type: string
   default: "#FAFFD1"
   description: Background gradient color code 1
-custom_bg_gradient_2:
+bg_gradient_2:
   type: string
   default: "#A1FFCE"
   description: Background gradient color code 2
