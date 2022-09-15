@@ -1,0 +1,23 @@
+body.static-login {
+  .body-page {
+    width: auto;
+
+    .custom-login-page .logo-mobile {
+      height: 4em;
+      width: auto;
+      padding-bottom: 15px;
+    }
+  }
+
+  .login-form {
+    padding: 15px 0 15px 0;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  p {
+    margin-left: 0;
+  }
+}
