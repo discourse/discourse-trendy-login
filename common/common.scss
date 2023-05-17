@@ -36,4 +36,8 @@ body.static-login {
     display: flex;
     justify-content: center;
   }
+
+  .login-welcome {
+    font-size: var(--font-up-1);
+  }
 }
