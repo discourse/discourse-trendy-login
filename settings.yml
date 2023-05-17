@@ -6,14 +6,6 @@ bg_color:
   type: string
   default: default
   description: Background color code
-modal_bg_color:
-  type: string
-  default: default
-  description: Modal background color code
-modal_text_color:
-  type: string
-  default: default
-  description: Modal text color code
 bg_gradient_1:
   type: string
   default: "#FAFFD1"
@@ -22,16 +14,7 @@ bg_gradient_2:
   type: string
   default: "#A1FFCE"
   description: Background gradient color code 2
-login_header:
-  type: string
-  default: "<h1>Welcome to Discourse! 👋</h1>"
-  description: Banner header text (allows HTML markup)
 login_subheader:
   type: string
   default: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> <p class="center-aligned-element"><iframe width="560" height="315" src="https://www.youtube.com/embed/DXUAyRRkI6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>'
   description: Banner sub-header text (allows HTML markup)
-login_button_border:
-  type: string
-  default: default
-  description: Border and button color code
-
