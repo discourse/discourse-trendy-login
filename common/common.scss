@@ -15,77 +15,12 @@ body.static-login {
     background: linear-gradient(to right, $bg-gradient-1, $bg-gradient-2);
   }
 
-  .body-page {
-    margin-top: 5em;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    max-width: 830px;
-    padding: 2em 3em 5%;
-    padding-bottom: 5% !important;
-    box-shadow: 0 8px 60px 0 rgba(103, 151, 255, 0.1),
-      0 12px 90px 0 rgba(133, 255, 103, 0.1);
-
-    @if $modal-bg-color != "default" {
-      background-color: $modal-bg-color;
-    } @else {
-      background-color: var(--secondary);
-    }
-
-    @if $modal-text-color != "default" {
-      color: $modal-text-color;
-    } @else {
-      color: var(--primary);
-    }
-
-    @if $login-button-border != "default" {
-      border-top: 8px solid $login-button-border;
-      border-bottom: 8px solid $login-button-border;
-    } @else {
-      border-top: 8px solid #8c6f6f;
-      border-bottom: 8px solid #8c6f6f;
-    }
-
-    .separator {
-      border-top: 1px solid #ada8a857;
-    }
-
-    .body-page-button-container {
-      padding: 20px 2px 1px;
-      justify-content: center;
-
-      .btn-primary {
-        background-color: #8c6f6f;
-        border-radius: 4px;
-        box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.1);
-        @if $login-button-border != "default" {
-          background-color: $login-button-border;
-        } @else {
-          background-color: #8c6f6f;
-        }
-
-        &:hover {
-          box-shadow: 0px 0px 1px 1px rgb(149, 101, 101),
-            3px 7px 90px 0px rgba(218, 255, 103, 0);
-        }
-      }
-    }
-
-    .center-aligned-element {
-      display: flex;
-      justify-content: center;
-    }
-  }
-
   .d-header {
     display: none;
   }
 
   h1 {
     text-align: center;
-  }
-
-  .login-required {
-    display: none;
   }
 
   .alert.alert-info {
@@ -100,5 +35,9 @@ body.static-login {
   .title {
     display: flex;
     justify-content: center;
+  }
+
+  .login-welcome {
+    font-size: var(--font-up-1);
   }
 }
