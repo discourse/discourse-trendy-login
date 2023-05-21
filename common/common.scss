@@ -41,3 +41,7 @@ body.static-login {
     font-size: var(--font-up-1);
   }
 }
+
+.desktop-view .d-header-wrap::before {
+  width: unset;
+}
