@@ -39,6 +39,11 @@ body.static-login {
 
   .login-welcome {
     font-size: var(--font-up-1);
+    .login-welcome__title {
+      p {
+        display: none;
+      }
+    }
   }
 }
 
