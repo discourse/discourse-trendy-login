@@ -1,7 +1,7 @@
 {
-  "name": "discourse-trendy-login",
-  "about_url": "",
-  "license_url": "https://github.com/MeghnaAJ/discourse-trendy-login/blob/master/LICENSE",
+  "name": "Trendy Login",
+  "about_url": "https://meta.discourse.org/t/trendy-login/206955",
+  "license_url": "https://githubhttps://github.com/discourse/discourse-trendy-login/blob/main/LICENSE",
   "author": "Meghna",
   "component": true
 }
