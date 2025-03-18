@@ -7,11 +7,6 @@ body.static-login {
   } @else if $bg-color != "default" {
     background: $bg-color;
   } @else {
-    background: -webkit-linear-gradient(
-      to right,
-      $bg-gradient-1,
-      $bg-gradient-2
-    );
     background: linear-gradient(to right, $bg-gradient-1, $bg-gradient-2);
   }
 
@@ -39,6 +34,7 @@ body.static-login {
 
   .login-welcome {
     font-size: var(--font-up-1);
+
     .login-welcome__description {
       display: none;
     }
