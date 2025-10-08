@@ -1,6 +1,6 @@
 import Component from "@ember/component";
+import { htmlSafe } from "@ember/template";
 import { tagName } from "@ember-decorators/component";
-import htmlSafe from "discourse/helpers/html-safe";
 
 @tagName("")
 export default class CustomLoginPage extends Component {
